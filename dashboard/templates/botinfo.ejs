@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="js/script.js" async defer></script>
+  </head>
+  <body>
+<body class="container">
+    <div style="text-align: center">
+        <h1>BOT INFO</h1>
+        <h2><span style="color: #F0F0F0">Bot:</span> <%= bot.user.tag %></h2>
+    </div>
+    <div class="grid" style="margin-top: 100px;">
+        <div class="card">
+            <h2>Всего серверов: </h2>
+            <p style="text-align: center; font-weight: bold"><%= bot.guilds.cache.size %></p>
+        </div>
+        <div class="card">
+            <h2>Всего юзеров: </h2>
+            <p style="text-align: center; font-weight: bold"><%= bot.users.cache.size %></p>
+        </div>
+        <div class="card">
+            <h2>Всего каналов: </h2>
+            <p style="text-align: center; font-weight: bold"><%= bot.channels.cache.size %></p>
+        </div>
+    </div>
+</body>

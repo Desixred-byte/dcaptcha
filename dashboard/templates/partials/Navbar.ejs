@@ -1,0 +1,25 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  </head>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="#"><i class="fab fa-discord"> </i> <%= bot.user.username %></a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <% if (user) { %>
+        <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="/dashboard"><i class="fas fa-rocket"></i> Dashboard</a></li>
+        <li><a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li> 
+        <% } else { %>
+            <li><a href="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+          <% } %>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>

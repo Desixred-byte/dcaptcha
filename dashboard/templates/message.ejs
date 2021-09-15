@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    	<meta charset="utf-8">
+    	<meta charset="utf-8">
+
+	<meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport">
+	<title>Dcaptcha</title>
+	<link href="/images/dcaptcha.png" rel="icon" type="image/png">
+	<meta content="You've been asked to invite a captcha bot!" property="og:site_name">
+	<meta content="Dcaptcha - You , your server and Dcaptcha" property="og:url">
+	<meta content="Dcaptcha - You , your server and Dcaptcha" property="og:title">
+	<meta content="Dcaptcha is a multi-purpose verification bot ready to secure your Discord server." property="og:description">
+	<meta content="website" property="og:type">
+  <meta property="og:image" content="/images/dcaptcha.png"  />
+  
+  <meta name="theme-color" content="#386bd7">
+
+      <link rel="stylesheet" href="css/message.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <meta name="theme-color" content="#2f3136">
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+     <%- include('./partials/Navbar'); %>
+    <div class="section-container">
+      <section id="success">
+        <i class="fas fa-fingerprint verify-i"></i>
+        <h3 class="section-header">Verification</h3>
+        <p><%= message %></p>
+      </section>
+    </div>
+  <footer>
+      <span>Created By <a href="https://desixredthedev.xyz">Desixred</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "dashboard/assets/css/Styles.css": [
+      {
+        "id": "08b6656f-a97b-446b-b993-99587027bb7b",
+        "line": 366,
+        "version": 35,
+        "index": 6099
+      }
+    ],
+    "dashboard/templates/invite.ejs": [
+      {
+        "id": "0702995c-59d3-476f-b009-a63264dca734",
+        "line": 23,
+        "version": 184,
+        "index": 1050
+      }
+    ]
+  }
+}
