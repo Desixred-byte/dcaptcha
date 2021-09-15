@@ -1,4 +1,4 @@
-p# Verification Bot
+### Verification Bot
 an Advanced Verification Bot for Discord, has dashboard, online captcha etc.
 # Info & Credits
 - This bot was made by desi ;)
