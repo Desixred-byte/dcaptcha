@@ -11,22 +11,6 @@ const Client = require('./Structures/legendJsClient.js'),
 
 client.loadCommands();
 
-console.log('-------------------------------------');
-console.log(`
-██╗     ███████╗ ██████╗ ███████╗███╗   ██╗██████╗         ██╗███████╗
-██║     ██╔════╝██╔════╝ ██╔════╝████╗  ██║██╔══██╗        ██║██╔════╝
-██║     █████╗  ██║  ███╗█████╗  ██╔██╗ ██║██║  ██║        ██║███████╗
-██║     ██╔══╝  ██║   ██║██╔══╝  ██║╚██╗██║██║  ██║   ██   ██║╚════██║
-███████╗███████╗╚██████╔╝███████╗██║ ╚████║██████╔╝██╗╚█████╔╝███████║
-╚══════╝╚══════╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═════╝ ╚═╝ ╚════╝ ╚══════╝
-`);
-
-const emoji = require('./emoji.json')
-console.log('-------------------------------------');
-console.log(
-	'[CREDITS]: made by legend-js | https://github.com/legend-js-dev | legendjs#0001'
-);
-console.log('[WARNING]: Do not remove the credits');
 
 console.log('-------------------------------------');
 //this took me some time so dont you dare remove credits, if u do remove credits then you will have copy right issues.
